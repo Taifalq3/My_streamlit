@@ -7,7 +7,7 @@ from sklearn.preprocessing import OrdinalEncoder
 st.sidebar.title("Car Price Prediction App")
 html_temp = """
 <div style="background-color:pink;padding:10px">
-<h2 style="color:white;text-align:center;">Streamlit ML Cloud App </h2>
+<h2 style="color:white;text-align:center;">My Streamlit ML Cloud App </h2>
 </div>"""
 st.markdown(html_temp, unsafe_allow_html=True)
 
@@ -46,7 +46,7 @@ my_dict = {
 df = pd.DataFrame.from_dict([my_dict])
 
 
-st.header("The configuration of your car is below")
+st.header("HERE you can see the configuration of your car !")
 st.table(df)
 
 df2 = ds13_transformer.transform(df)
