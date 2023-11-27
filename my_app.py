@@ -31,7 +31,7 @@ car_model = st.sidebar.selectbox(
 )
 
 
-ds13_model = pickle.load(open("rf_model_new", "rb"))
+ds13_model = pickle.load(open("my", "rb"))
 ds13_transformer = pickle.load(open("transformer", "rb"))
 
 
